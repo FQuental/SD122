@@ -2,10 +2,10 @@ module decode4x16_tb_att2;
   reg [3:0] in;
   wire [15:0] out;
 
-  decode4x16 uut (
-               .in(in),
-               .out(out)
-             );
+  code4x16 uut (
+             .in(in),
+             .out(out)
+           );
 
   initial
   begin
