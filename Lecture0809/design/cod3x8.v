@@ -1,4 +1,4 @@
-module code3x8 (
+module cod3x8 (
     input  wire [2:0] in,
     input  wire       habilita,
     output reg  [7:0] out
